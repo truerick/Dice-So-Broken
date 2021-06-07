@@ -141,14 +141,14 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
   })
     .then(() => {
       dice3d.addColorset({
-        name: 'Broken Compass colors',
+        name: 'Broken Compass red',
         description: "Adventure is back KS - Red dice",
         category: "Broken Compass",
         background: "#7c1d28",
 		foreground: '#333333',
 		outline: '#941826',
         edge: '#999999',
-		texture: 'metal',
+		texture: 'red-adventure',
 		material: 'metal',
 		fontScale: {
           "d100":0.8,
@@ -156,7 +156,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
           "d12":1.0,
 		  "d10": 0.9,
 		  "d8": 0.9,
-          "d6":1.3,
+          "d6":1.2,
           "d2":2
         },
         font:"Font Awesome 5 Free"
@@ -171,14 +171,14 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
   })
     .then(() => {
       dice3d.addColorset({
-        name: 'Broken Compass colors',
+        name: 'Broken Compass green',
         description: "Adventure is back KS - Green dice",
         category: "Broken Compass",
         background: "#1a6320",
 		foreground: '#333333',
 		outline: '#1c9926',
         edge: '#999999',
-		texture: 'metal',
+		texture: 'green-adventure',
 		material: 'metal',
 		fontScale: {
           "d100":0.8,
@@ -186,7 +186,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
           "d12":1.0,
 		  "d10": 0.9,
 		  "d8": 0.9,
-          "d6":1.3,
+          "d6":1.2,
           "d2":2
         },
         font:"Font Awesome 5 Free"
