@@ -2,7 +2,7 @@
     "name": "dice-so-broken",
     "title": "Custom dice for Broken Compass made by Truerick",
     "description": "Extra Dice So Nice's theme with custom faces.",
-    "version": "0.1",
+    "version": "1.0.1",
 	"author": "Truerick",
 	"authors": [
 		{
@@ -10,8 +10,8 @@
 			"url": "https://github.com/truerick"
 		}
 	],
-	"minimumCoreVersion": "0.7.5",
-    "compatibleCoreVersion": "0.7.5",
+	"minimumCoreVersion": "0.8.6",
+    "compatibleCoreVersion": "0.8.6",
 	"dependencies": [
 			{
 			  "name": "dice-so-nice",
