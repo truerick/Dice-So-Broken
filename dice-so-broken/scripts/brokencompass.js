@@ -54,12 +54,12 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
    dice3d.addDicePreset({
      type: "d6",
 	      labels: [
-       "<i class=\"fas fa-compass\"></i>",
+       "\f54c",
        "N",
        "S",
        "W",
        "E",
-       "<i class=\"fas fa-skull\"></i>",
+       "",
      ],
      system: "Broken Compass"
    },"d6");
