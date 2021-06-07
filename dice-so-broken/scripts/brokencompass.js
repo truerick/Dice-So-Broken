@@ -32,8 +32,8 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
    dice3d.addDicePreset({
      type: "d2",
 	      labels: [
-       "<i class=\"fas fa-skull\"></i>",
-       "<i class=\"fas fa-compass\"></i>"
+       "graphics/faces/skull.png",
+       "graphics/faces/compass.png"
      ],
      system: "Broken Compass"
 	 
@@ -54,12 +54,12 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
    dice3d.addDicePreset({
      type: "d6",
 	      labels: [
-       "f54c",
+       "graphics/faces/skull.png",
        "N",
        "S",
        "W",
        "E",
-       "f14e",
+       "graphics/faces/compass.png"
      ],
      system: "Broken Compass"
    },"d6");
@@ -156,10 +156,10 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
           "d12":1.0,
 		  "d10": 0.9,
 		  "d8": 0.9,
-          "d6":1.2,
+          "d6":1.3,
           "d2":2
         },
-        font:"Font Awesome 5 Free"
+        font:"debmixedfancy"
       },"no");
     });
 	
@@ -186,10 +186,10 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
           "d12":1.0,
 		  "d10": 0.9,
 		  "d8": 0.9,
-          "d6":1.2,
+          "d6":1.3,
           "d2":2
         },
-        font:"Font Awesome 5 Free"
+        font:"debmixedfancy"
       },"no");
     });
 	
