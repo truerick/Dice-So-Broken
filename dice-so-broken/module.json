@@ -1,0 +1,31 @@
+ {
+    "name": "dice-so-broken",
+    "title": "Custom dice for Broken Compass made by Truerick",
+    "description": "Extra Dice So Nice's theme with custom faces.",
+    "version": "0.1",
+	"author": "Truerick",
+	"authors": [
+		{
+			"name":"Truerick",
+			"url": "https://github.com/truerick"
+		}
+	],
+	"minimumCoreVersion": "0.7.5",
+    "compatibleCoreVersion": "0.7.5",
+	"dependencies": [
+			{
+			  "name": "dice-so-nice",
+			  "manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/raw/master/module/module.json"
+			}
+	],
+	"styles": [
+		"dsb-style.css"
+	],
+	"scripts": [
+		"scripts/brokencompass.js"
+	],
+	"url": "https://github.com/truerick/Dice-So-Broken",
+	"manifest": "https://raw.githubusercontent.com/truerick/Dice-So-Broken/main/dice-so-broken/module.json",
+	"download": "https://raw.githubusercontent.com/truerick/Dice-So-Broken/main/dice-so-broken.zip",
+	"readme": "https://raw.githubusercontent.com/truerick/Dice-So-Broken/main/README.md"
+}
