@@ -32,8 +32,8 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
    dice3d.addDicePreset({
      type: "d2",
 	      labels: [
-       "graphics/faces/skull.png",
-       "graphics/faces/compass.png"
+       "modules/dice-so-broken/graphics/faces/skull.png",
+       "modules/dice-so-broken/graphics/faces/compass.png"
      ],
      system: "Broken Compass"
 	 
@@ -54,12 +54,12 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
    dice3d.addDicePreset({
      type: "d6",
 	      labels: [
-       "graphics/faces/skull.png",
+       "modules/dice-so-broken/graphics/faces/skull.png",
        "N",
        "S",
        "W",
        "E",
-       "graphics/faces/compass.png"
+       "modules/dice-so-broken/graphics/faces/compass.png"
      ],
      system: "Broken Compass"
    },"d6");
