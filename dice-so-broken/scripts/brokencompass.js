@@ -156,7 +156,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
           "d12":1.0,
 		  "d10": 0.9,
 		  "d8": 0.9,
-          "d6":1.3,
+          "d6":1.5,
           "d2":2
         },
         font:"Charm"
@@ -186,7 +186,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
           "d12":1.0,
 		  "d10": 0.9,
 		  "d8": 0.9,
-          "d6":1.3,
+          "d6":1.5,
           "d2":2
         },
         font:"Charm"
