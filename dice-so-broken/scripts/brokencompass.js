@@ -159,7 +159,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
           "d6":1.3,
           "d2":2
         },
-        font:"debmixedfancy"
+        font:"Charm"
       },"no");
     });
 	
@@ -189,7 +189,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
           "d6":1.3,
           "d2":2
         },
-        font:"debmixedfancy"
+        font:"Charm"
       },"no");
     });
 	
