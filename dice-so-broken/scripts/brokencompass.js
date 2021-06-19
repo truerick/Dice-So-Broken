@@ -175,7 +175,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
         description: "Adventure is back KS - Green dice",
         category: "Broken Compass",
         background: "#1a6320",
-		foreground: '#ffffff',
+		foreground: '#FAC500',
 		outline: '#1c9926',
         edge: '#999999',
 		texture: 'green-adventure',
